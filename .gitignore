@@ -1,0 +1,8 @@
+# VSC
+.vscode
+
+# Nandeck related files
+nandeck/export.png
+nandeck/export/*
+nandeck/nanDECK.ini
+nandeck/shortcuts.txt

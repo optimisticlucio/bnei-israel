@@ -1,0 +1,76 @@
+name: Run nanDECK and Upload Export
+
+on:
+  workflow_dispatch
+
+jobs:
+  build-nandeck:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Ruby for Fontist to successfully download
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: "3.0.0"
+    - name: Setup Fontist to Download Fonts
+      uses: fontist/setup-fontist@v2
+      with:
+        fontist-version: "2.0.3"
+
+      # Remember to update this next line whenever we add fonts
+    - run: |
+        fontist install -vau "Inter"
+        fontist install -vau "Almendra"
+        fontist install -vau "Besley"
+
+    #
+    # ⬇⬇ CRITICAL STEP ⬇⬇
+    # Copy installed Fontist fonts into Windows system fonts dir
+    # and register them as real Windows fonts so nanDECK sees them
+    #
+    - name: Install fonts into Windows font directory
+      shell: powershell
+      run: |
+        $FontistDir = "$env:USERPROFILE\.fontist\fonts"
+
+        Write-Host "Fontist fonts directory: $FontistDir"
+
+        $fonts = Get-ChildItem -Recurse -Include *.ttf, *.otf -Path $FontistDir
+
+        foreach ($font in $fonts) {
+          $dest = "C:\Windows\Fonts\$($font.Name)"
+          Write-Host "Installing $($font.Name) into Windows fonts..."
+          Copy-Item $font.FullName $dest -Force
+
+          # Register font with Windows
+          reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" `
+            /v "$($font.BaseName) (TrueType)" `
+            /t REG_SZ `
+            /d "$($font.Name)" `
+            /f
+        }
+
+        # Notify Windows to refresh font cache
+        Write-Host "Refreshing Windows font cache..."
+        rundll32.exe user32.dll,UpdatePerUserSystemParameters
+
+
+    - name: Export Cards
+      run: |
+        .\nandeck\nanDECK.exe .\deck_files\playable_cards.txt /exec
+      shell: cmd
+
+    - name: Export Characters
+      run: |
+        .\nandeck\nanDECK.exe .\deck_files\characters.txt /exec
+      shell: cmd
+      
+    - name: Upload Export Folder
+      uses: actions/upload-artifact@v4
+      with:
+        name: nandeck-export
+        path: nandeck/export
+        retention-days: 1
