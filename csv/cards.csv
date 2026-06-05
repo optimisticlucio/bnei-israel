@@ -19,8 +19,7 @@ amount,character,useable_by,original_card_name,name,type,img_name,combat_value,b
 1,golem,RABBI,Prophecy,אמונה,scheme,,,,"Look at the top 4 cards of your deck. Add 2 of them to your hand and put the other 2 back on top of your deck, in any order. "
 2,golem,RABBI,Bewilderment,בעזרת השמיים,defence,,0,,"During combat: Prevent all damage. After combat: You may place your fighter in any space. "
 1,golem,RABBI,Aid the Chosen One,האותיות הקדושות,attack,,4,,"After combat: If you won the combat, draw 2 cards. "
-1,golem,RABBI,Restless Spirits,,scheme,,,,"Choose any space in Merlin's zone. Deal 2 damage to each opposing fighter in that space and in one adjacent space. If at least one fighter
- is defeated this way, draw 1 card. "
+1,golem,RABBI,Restless Spirits,,scheme,,,,"Choose any space in Merlin's zone. Deal 2 damage to each opposing fighter in that space and in one adjacent space. If at least one fighter is defeated this way, draw 1 card. "
 2,golem,RABBI,Command the Storms,על פני תהום,scheme,,,,"Move each fighter up to 3 spaces. (This includes opposing fighters.) "
 2,golem,ANY,Swift Strike,,attack,,4,,"After combat: Move your fighter up to 4 spaces. "
 3,golem,ANY,Momentous Shift,שינוי משמעותי,versatile,,3,,"During combat: If your fighter started this turn in a different space, this card's value is 5 instead. "
