@@ -1,6 +1,6 @@
 amount,character,useable_by,original_card_name,name,type,img_name,combat_value,boost_value,description
 1,moses_plague,,,דם,scheme,,,,כל השחקנים שמים קלף אקראי מידם על חבילת הקלפים שלהם
-1,moses_plague,,,צפרדע,attack,,2
+1,moses_plague,,,צפרדע,attack,,2,,
 1,moses_plague,,,כינים,scheme,,,,כל דמות שבאותו איזור כמו משה חוטפת 1 נזק
 1,moses_plague,,,ערב,attack,,4,,הקלף הזה נחשב למתקפת מרחק.
 1,moses_plague,,,דבר,,,,,
