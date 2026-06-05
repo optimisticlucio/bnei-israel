@@ -11,7 +11,7 @@ amount,character,useable_by,original_card_name,name,type,img_name,combat_value,b
 1,moses_plague,,,מכת בכורות,scheme,,,,"מהתור הזה ואילך, בתחילת כל תור של שחקן יריב, הגיבור שלהם מקבל 1 נזק."
 3,golem,ANY,Skirmish,מכה אימתנית,versatile,,4,,"After combat: If you won the combat, choose one of the fighters in the combat and move them up to 2 spaces. "
 3,golem,GOLEM,Noble Sacrifice,מן האפר,attack,,2,,"During combat: You may BOOST this attack. (This is in addition to any boost from King Arthur's special ability.) "
-1,golem,GOLEM,Excalibur,מת,attack,,6
+1,golem,GOLEM,Excalibur,מת,attack,,6,,
 1,golem,GOLEM,The Aid of Morgana,הכניסני תחת כנפך,attack,,4,,After combat: Draw 2 cards.
 2,golem,GOLEM,Divine Intervention,מגן העם,versatile,,3,,After combat: Move King Arthur up to 5 spaces.
 1,golem,GOLEM,The Holy Grail,אמת,defence,,1,,"After combat: If King Arthur has 4 or less health but is not defeated, set his health to 8."
