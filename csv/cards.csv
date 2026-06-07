@@ -12,9 +12,9 @@ amount,character,useable_by,original_card_name,name,type,img_name,combat_value,b
 3,golem,ANY,Skirmish,מכה אימתנית,versatile,,4,,"After combat: If you won the combat, choose one of the fighters in the combat and move them up to 2 spaces. "
 3,golem,GOLEM,Noble Sacrifice,מן האפר,attack,,2,,"During combat: You may BOOST this attack. (This is in addition to any boost from King Arthur's special ability.) "
 1,golem,GOLEM,Excalibur,מת,attack,,6,,
-1,golem,GOLEM,The Aid of Morgana,הכניסני תחת כנפך,attack,,4,,After combat: Draw 2 cards.
+1,golem,GOLEM,The Aid of Morgana,אמת,attack,,4,,After combat: Draw 2 cards.
 2,golem,GOLEM,Divine Intervention,מגן העם,versatile,,3,,After combat: Move King Arthur up to 5 spaces.
-1,golem,GOLEM,The Holy Grail,אמת,defence,,1,,"After combat: If King Arthur has 4 or less health but is not defeated, set his health to 8."
+1,golem,GOLEM,The Holy Grail,הכניסני תחת כנפיך,defence,,1,,"After combat: If King Arthur has 4 or less health but is not defeated, set his health to 8."
 1,golem,GOLEM,The Lady of the Lake,שקיעת השמש,scheme,,,,"תחפש בערימת הקלפים שלך עבור הקלף ""מת"" ושים אותו בידך."
 1,golem,RABBI,Prophecy,אמונה,scheme,,,,"Look at the top 4 cards of your deck. Add 2 of them to your hand and put the other 2 back on top of your deck, in any order. "
 2,golem,RABBI,Bewilderment,בעזרת השמיים,defence,,0,,"During combat: Prevent all damage. After combat: You may place your fighter in any space. "
@@ -25,3 +25,11 @@ amount,character,useable_by,original_card_name,name,type,img_name,combat_value,b
 3,golem,ANY,Momentous Shift,שינוי משמעותי,versatile,,3,,"During combat: If your fighter started this turn in a different space, this card's value is 5 instead. "
 3,golem,ANY,Feint,הטעיה,versatile,,2,,"Immediately: Cancel all effects on your opponent's card. "
 3,golem,ANY,Regroup,ארגון מחדש,versatile,,1,,"After combat: Draw 1 card. If you won the combat, draw 2 cards instead. "
+2,uri,ANY,TRICK: Svadilfari's Lure,,scheme,,,,LOKI: Place an opposing fighter adjacent to Loki. NOT LOKI: Loki reveals a card in our hand. Discard that card.
+3,uri,LOKI,Underhanded,,versatile,,3,,"DURING COMBAT: If your opponent has more cards in their hand than you, this card's value is 6 instead."
+3,uri,ANY,TRICK: Baldr's Downfall,,attack,,4,,LOKI: AFTER COMBAT: Draw 1 cards. NOT LOKI: AFTER COMBAT: Deal 2 damage to your hero.
+2,uri,ANY,TRICK: Freyja's Rescue,,versatile,,2,,LOKI: DURING COMBAT: Swap the values of your card and your opponent's card. NOT LOKI: AFTER COMBAT: Loki recovers 3 health.
+4,uri,LOKI,Shapeshifter,,attack,,0,,"DURING COMBAT: Choose one effect: add +1 to this card's value for each card in your opponent's hand, gain 1 action."
+3,uri,LOKI,Malicious Flyting,,versatile,,3,,"AFTER COMBAT: Draw 1 card. If your opponent played a TRICK, draw 2 cards instead."
+2,uri,ANY,TRICK: Sindri's Bet,,defence,,3,,"LOKI: DURING COMBAT: Your opponent may discard a card. If they don't, subtract 3 from their card's value. NOT LOKI: AFTER COMBAT: Loki returns the top card of their discard pile to their hand."
+3,uri,LOKI,Looking for Trouble,,attack,,4,,"IMMEDIATELY: If your opponent played a card, return it to their hand, look at their hand, and choose a card for them to play."
