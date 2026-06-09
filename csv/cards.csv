@@ -25,11 +25,11 @@ amount,character,useable_by,original_card_name,name,type,img_name,combat_value,b
 3,golem,ANY,Momentous Shift,שינוי משמעותי,versatile,,3,1,"During combat: If your fighter started this turn in a different space, this card's value is 5 instead. "
 3,golem,ANY,Feint,הטעיה,versatile,,2,1,"Immediately: Cancel all effects on your opponent's card. "
 3,golem,ANY,Regroup,ארגון מחדש,versatile,,1,1,"After combat: Draw 1 card. If you won the combat, draw 2 cards instead. "
-2,uri,ANY,TRICK: Svadilfari's Lure,,scheme,,,,LOKI: Place an opposing fighter adjacent to Loki. NOT LOKI: Loki reveals a card in our hand. Discard that card.
-3,uri,LOKI,Underhanded,,versatile,,3,2,"DURING COMBAT: If your opponent has more cards in their hand than you, this card's value is 6 instead."
-3,uri,ANY,TRICK: Baldr's Downfall,,attack,,4,,LOKI: AFTER COMBAT: Draw 1 cards. NOT LOKI: AFTER COMBAT: Deal 2 damage to your hero.
-2,uri,ANY,TRICK: Freyja's Rescue,,versatile,,2,,LOKI: DURING COMBAT: Swap the values of your card and your opponent's card. NOT LOKI: AFTER COMBAT: Loki recovers 3 health.
-4,uri,LOKI,Shapeshifter,,attack,,0,2,"DURING COMBAT: Choose one effect: add +1 to this card's value for each card in your opponent's hand, gain 1 action."
-3,uri,LOKI,Malicious Flyting,,versatile,,3,3,"AFTER COMBAT: Draw 1 card. If your opponent played a TRICK, draw 2 cards instead."
-2,uri,ANY,TRICK: Sindri's Bet,,defence,,3,,"LOKI: DURING COMBAT: Your opponent may discard a card. If they don't, subtract 3 from their card's value. NOT LOKI: AFTER COMBAT: Loki returns the top card of their discard pile to their hand."
-3,uri,LOKI,Looking for Trouble,,attack,,4,3,"IMMEDIATELY: If your opponent played a card, return it to their hand, look at their hand, and choose a card for them to play."
+2,uri,ANY,TRICK: Svadilfari's Lure,יותר מקוסם,scheme,,,,LOKI: Place an opposing fighter adjacent to Loki. NOT LOKI: Loki reveals a card in our hand. Discard that card.
+3,uri,LOKI,Underhanded,נפל בקסמיו,versatile,,3,2,"DURING COMBAT: If your opponent has more cards in their hand than you, this card's value is 6 instead."
+3,uri,ANY,TRICK: Baldr's Downfall,רואה עתידות,attack,,4,,LOKI: AFTER COMBAT: Draw 1 cards. NOT LOKI: AFTER COMBAT: Deal 2 damage to your hero.
+2,uri,ANY,TRICK: Freyja's Rescue,מעקם מתכות,versatile,,2,,LOKI: DURING COMBAT: Swap the values of your card and your opponent's card. NOT LOKI: AFTER COMBAT: Loki recovers 3 health.
+4,uri,LOKI,Shapeshifter,פאראפסיכולוגיה,attack,,0,2,"DURING COMBAT: Choose one effect: add +1 to this card's value for each card in your opponent's hand, gain 1 action."
+3,uri,LOKI,Malicious Flyting,אין שני לו,versatile,,3,3,"AFTER COMBAT: Draw 1 card. If your opponent played a TRICK, draw 2 cards instead."
+2,uri,ANY,TRICK: Sindri's Bet,חש בעוצמה,defence,,3,,"LOKI: DURING COMBAT: Your opponent may discard a card. If they don't, subtract 3 from their card's value. NOT LOKI: AFTER COMBAT: Loki returns the top card of their discard pile to their hand."
+3,uri,LOKI,Looking for Trouble,קריאת מחשבות,attack,,4,3,"IMMEDIATELY: If your opponent played a card, return it to their hand, look at their hand, and choose a card for them to play."
