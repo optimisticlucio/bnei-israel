@@ -9,22 +9,22 @@ amount,character,useable_by,original_card_name,name,type,img_name,combat_value,b
 1,moses_plague,,,ארבה,scheme,,,,כל השחקנים היריבים זורקים שני קלפים מידם.
 1,moses_plague,,,חושך,scheme,,,,הזז את כל הדמויות על הלוח לאיזה מקום שיתחשק.
 1,moses_plague,,,מכת בכורות,scheme,,,,"מהתור הזה ואילך, בתחילת כל תור של שחקן יריב, הגיבור שלהם מקבל 1 נזק."
-3,golem,ANY,Skirmish,מכה אימתנית,versatile,,4,1,"After combat: If you won the combat, choose one of the fighters in the combat and move them up to 2 spaces. "
-3,golem,GOLEM,Noble Sacrifice,מן האפר,attack,,2,3,"During combat: You may BOOST this attack. (This is in addition to any boost from King Arthur's special ability.) "
-1,golem,GOLEM,Excalibur,מת,attack,,6,3,
-1,golem,GOLEM,The Aid of Morgana,אמת,attack,,4,2,After combat: Draw 2 cards.
-2,golem,GOLEM,Divine Intervention,מגן העם,versatile,,3,2,After combat: Move King Arthur up to 5 spaces.
-1,golem,GOLEM,The Holy Grail,הכניסני תחת כנפיך,defence,,1,2,"After combat: If King Arthur has 4 or less health but is not defeated, set his health to 8."
-1,golem,GOLEM,The Lady of the Lake,שקיעת השמש,scheme,,,2,"תחפש בערימת הקלפים שלך עבור הקלף ""מת"" ושים אותו בידך."
-1,golem,RABBI,Prophecy,אמונה,scheme,,,2,"Look at the top 4 cards of your deck. Add 2 of them to your hand and put the other 2 back on top of your deck, in any order. "
-2,golem,RABBI,Bewilderment,בעזרת השמיים,defence,,0,2,"During combat: Prevent all damage. After combat: You may place your fighter in any space. "
-1,golem,RABBI,Aid the Chosen One,האותיות הקדושות,attack,,4,2,"After combat: If you won the combat, draw 2 cards. "
-1,golem,RABBI,Restless Spirits,אותות ומופתים,scheme,,,2,"Choose any space in Merlin's zone. Deal 2 damage to each opposing fighter in that space and in one adjacent space. If at least one fighter is defeated this way, draw 1 card. "
-2,golem,RABBI,Command the Storms,על פני תהום,scheme,,,2,"Move each fighter up to 3 spaces. (This includes opposing fighters.) "
-2,golem,ANY,Swift Strike,מכה מהירה,attack,,4,2,"After combat: Move your fighter up to 4 spaces. "
-3,golem,ANY,Momentous Shift,שינוי משמעותי,versatile,,3,1,"During combat: If your fighter started this turn in a different space, this card's value is 5 instead. "
-3,golem,ANY,Feint,הטעיה,versatile,,2,1,"Immediately: Cancel all effects on your opponent's card. "
-3,golem,ANY,Regroup,ארגון מחדש,versatile,,1,1,"After combat: Draw 1 card. If you won the combat, draw 2 cards instead. "
+3,golem,ANY,Skirmish,מכה אימתנית,versatile,,4,1,"לאחר הקרב: אם ניצחת בקרב, בחר אחד מהלוחמים בקרב והזז אותו עד 2 משבצות."
+3,golem,GOLEM,Noble Sacrifice,מן האפר,attack,,2,3,"במהלך הקרב: אתה רשאי לשדרג את ההתקפה הזו (בנוסף לשדרוג מהיכולת המיוחדת של המלך ארתור)."
+1,golem,GOLEM,Excalibur,מת,attack,,8,3,"לא ניתן לבטל את השפעות קלף זה. לאחר הקרב: סיים את תורך. בתחילת התור הבא שלך, הגולם מובס."
+1,golem,GOLEM,The Aid of Morgana,אמת,attack,,4,2,לאחר הקרב: שלוף 2 קלפים.
+2,golem,GOLEM,Divine Intervention,מגן העם,versatile,,3,2,לאחר הקרב: הזז את הגולם עד 5 משבצות.
+1,golem,GOLEM,The Holy Grail,הכניסני תחת כנפיך,defence,,1,2,"לאחר הקרב: אם לגולם יש 4 או פחות נקודת חיים אבל הוא לא הובס, העלה את כמות החיים שלו ל-8."
+1,golem,GOLEM,The Lady of the Lake,שקיעת השמש,scheme,,,2,"מצא את הקלף מת בערימת קלפי הפעולה או ערימת הקלפים המושלכים. הוסף אותו לידך. אם חיפשת בערימת קלפי הפעולה, ערבב אותה."
+1,golem,RABBI,Prophecy,אמונה,scheme,,,2,"הבט ב4 הקלפים העליונים בערימת קלפי הפעולה שלך. הוסף 2 מהם לידך ושים את 2 הנותרים בחזרה בראש הערימה, באיזה סדר שתבחר."
+2,golem,RABBI,Bewilderment,בעזרת השמיים,defence,,0,2,"במהלך הקרב: מנע כל נזק שהוא. לאחר הקרב: אתה רשאי למקם את הרבי בכל משבצת."
+1,golem,RABBI,Aid the Chosen One,האותיות הקדושות,attack,,4,2,"לאחר הקרב: אם ניצחת בקרב, שלוף 2 קלפים."
+1,golem,RABBI,Restless Spirits,אותות ומופתים,scheme,,,2,"בחר משבצת כלשהי באיזור שבו נמצא הרבי. כל לוחם יריב במשבצת זו או משבצת סמוכה אליה יספוג 2 נקודות נזק. אם לפחות לוחם אחד הובס בדרך זו, שלוף קלף 1."
+2,golem,RABBI,Command the Storms,על פני תהום,scheme,,,2,"הזז כל לוחם עד 3 משבצות. (כולל לוחמים של היריב)."
+2,golem,ANY,Swift Strike,מתקפה זריזה,attack,,4,2,"לאחר הקרב: הזז את הלוחם שלך עד 4 משבצות."
+3,golem,ANY,Momentous Shift,שינוי משמעותי,versatile,,3,1,"במהלך הקרב: אם הלוחם שלך התחיל את התור במשבצת שונה, הערך של קלף זה הוא 5."
+3,golem,ANY,Feint,הטעיה,versatile,,2,1,"מיד: בטל את כל ההשפעות שבקלף של יריבך."
+3,golem,ANY,Regroup,ארגון מחדש,versatile,,1,1,"לאחר הקרב: שלוף קלף 1. אלא אם כן ניצחת בקרב, במקרה זה שלוף 2 קלפים."
 2,uri,ANY,TRICK: Svadilfari's Lure,יותר מקוסם,scheme,,,,LOKI: Place an opposing fighter adjacent to Loki. NOT LOKI: Loki reveals a card in our hand. Discard that card.
 3,uri,LOKI,Underhanded,נפל בקסמיו,versatile,,3,2,"DURING COMBAT: If your opponent has more cards in their hand than you, this card's value is 6 instead."
 3,uri,ANY,TRICK: Baldr's Downfall,רואה עתידות,attack,,4,,LOKI: AFTER COMBAT: Draw 1 cards. NOT LOKI: AFTER COMBAT: Deal 2 damage to your hero.
