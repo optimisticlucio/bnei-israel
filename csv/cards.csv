@@ -34,3 +34,6 @@ amount,character,useable_by,original_card_name,name,type,img_name,combat_value,b
 3,uri,LOKI,Malicious Flyting,אין שני לו,versatile,,3,3,"AFTER COMBAT: Draw 1 card. If your opponent played a TRICK, draw 2 cards instead."
 2,uri,ANY,TRICK: Sindri's Bet,חש בעוצמה,defence,,3,,"LOKI: DURING COMBAT: Your opponent may discard a card. If they don't, subtract 3 from their card's value. NOT LOKI: AFTER COMBAT: Loki returns the top card of their discard pile to their hand."
 3,uri,LOKI,Looking for Trouble,קריאת מחשבות,attack,,4,3,"IMMEDIATELY: If your opponent played a card, return it to their hand, look at their hand, and choose a card for them to play."
+2,uri,LOKI,God of Mischief,,versatile,,2,3,"IMMEDIATELY: If your opponent played a TRICK, cancel all effects on your opponents card."
+3,uri,LOKI,LAEVATEINN,,versatile,,2,3,"DURING COMBAT: Reveal a card in your opponent's hand. Add its BOOSt value to this card's value. If you reveal a TRICK, put it in your hand."
+2,uri,LOKI,RAGNAROK,,attack,,0,3,This card's effects cannot be canceled. DURING COMBAT: Add +3 to this card's value for each TRICK in your opponent's hand.
