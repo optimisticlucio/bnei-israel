@@ -9,15 +9,15 @@ amount,character,useable_by,original_card_name,name,type,img_name,combat_value,b
 1,moses_plague,,,ארבה,,,,,כל השחקנים האויבים זורקים קלף מידם.
 1,moses_plague,,,חושך,,,,,הזז את כל הדמויות על הלוח לאיזה מקום שיתחשק.
 1,moses_plague,,,מכת בכורות,,,,,הלוחם עם הכי הרבה נקודות חיים סופג 4 נקודות נזק.
-3,moses,ANY,,אותות ומופתים,attack,,4,2,"לאחר הקרב: אם ניצחת בקרב, שלוף 2 קלפים."
+4,moses,ANY,,אותות ומופתים,attack,,4,2,"לאחר הקרב: אם ניצחת בקרב, שלוף 2 קלפים."
 2,moses,MOSES,,מנה,scheme,,,3,בחר איזור כלשהוא על המפה. כל לוחם עמית באותו איזור מרפא 2 נזק.
 3,moses,AARON,,אהיה עם פיך,versatile,,3,1,"ניתן להשתמש בקלף הזה בקרבות בהן משה משתתף. מיד: החלף מקומות בין משה ואהרון, אהרון הוא המשתתף בקרב במקום משה."
 3,moses,MOSES,,עמוד האש,scheme,,,2,"בחר לוחם עמית. עד תחילת התור הבא של משה, כל פעם שאותו לוחם משתתף בקרב, הלוחם האויב מקבל 2 נזק בסוף הקרב."
 3,moses,MOSES,,שלח את עמי,scheme,,,1,"הטל מכה, אך מותר לך לגלגל את הקובייה פעם נוספת לפני ביצוע המכה אם תרצה בזאת. אם אהרון באותו איזור כמשה, הטל עוד מכה, עם עוד גלגול אפשרי."
 3,moses,ANY,,הטעיה,versatile,,,2,מיד: בטל את כל ההשפעות שבקלף של יריבך.
 3,moses,ANY,,ארגון מחדש,versatile,,,1,"לאחר הקרב: שלוף קלף 1. אלא אם כן ניצחת בקרב, במקרה זה שלוף 2 קלפים."
-3,moses,MOSES,,אדמת קדש,scheme,,,,שלוף קלף עבור כל לוחם אויב באיזור משה.
-2,moses,AARON,,קול העם,defense,,2,,"לאחר הקרב: אם הפסדת בקרב, שלוף קלף."
+3,moses,MOSES,,אדמת קדש,scheme,,,3,שלוף קלף עבור כל לוחם אויב באיזור משה.
+2,moses,AARON,,קול העם,defense,,2,3,"לאחר הקרב: אם הפסדת בקרב, שלוף קלף."
 5,,,,,,,,,
 3,golem,ANY,Skirmish,מכה אימתנית,versatile,,4,1,"לאחר הקרב: אם ניצחת בקרב, בחר אחד מהלוחמים בקרב והזז אותו עד 2 משבצות."
 3,golem,GOLEM,Noble Sacrifice,מן האפר,attack,,2,3,במהלך הקרב: אתה רשאי לשדרג את ההתקפה הזו (בנוסף לשדרוג מהיכולת המיוחדת של המלך ארתור).
@@ -35,14 +35,25 @@ amount,character,useable_by,original_card_name,name,type,img_name,combat_value,b
 3,golem,ANY,Momentous Shift,שינוי משמעותי,versatile,,3,1,"במהלך הקרב: אם הלוחם שלך התחיל את התור במשבצת שונה, הערך של קלף זה הוא 5."
 3,golem,ANY,Feint,הטעיה,versatile,,2,1,מיד: בטל את כל ההשפעות שבקלף של יריבך.
 3,golem,ANY,Regroup,ארגון מחדש,versatile,,1,1,"לאחר הקרב: שלוף קלף 1. אלא אם כן ניצחת בקרב, במקרה זה שלוף 2 קלפים."
-2,uri,ANY,TRICK: Svadilfari's Lure,יותר מקוסם,scheme,,,,LOKI: Place an opposing fighter adjacent to Loki. NOT LOKI: Loki reveals a card in our hand. Discard that card.
+2,uri,ANY,TRICK: Svadilfari's Lure,יותר מקוסם,scheme,,,,"אורי: הזז לוחם יריב אל משבצת סמוכה לאורי. לא אורי: אורי מראה קלף מידך, השלך את אותו קלף."
 3,uri,LOKI,Underhanded,נפל בקסמיו,versatile,,3,2,"DURING COMBAT: If your opponent has more cards in their hand than you, this card's value is 6 instead."
-3,uri,ANY,TRICK: Baldr's Downfall,רואה עתידות,attack,,4,,LOKI: AFTER COMBAT: Draw 1 cards. NOT LOKI: AFTER COMBAT: Deal 2 damage to your hero.
+3,uri,ANY,TRICK: Baldr's Downfall,רואה עתידות,attack,,4,,אורי: אחרי הקרב: שלוף קלף. לא אורי: אחרי הקרב: הגיבור שלך סופג 2 נקודות נזק.
 2,uri,ANY,TRICK: Freyja's Rescue,מעקם מתכות,versatile,,2,,LOKI: DURING COMBAT: Swap the values of your card and your opponent's card. NOT LOKI: AFTER COMBAT: Loki recovers 3 health.
 4,uri,LOKI,Shapeshifter,פאראפסיכולוגיה,attack,,0,2,"DURING COMBAT: Choose one effect: add +1 to this card's value for each card in your opponent's hand, gain 1 action."
-3,uri,LOKI,Malicious Flyting,אין שני לו,versatile,,3,3,"AFTER COMBAT: Draw 1 card. If your opponent played a TRICK, draw 2 cards instead."
-2,uri,ANY,TRICK: Sindri's Bet,חש בעוצמה,defence,,3,,"LOKI: DURING COMBAT: Your opponent may discard a card. If they don't, subtract 3 from their card's value. NOT LOKI: AFTER COMBAT: Loki returns the top card of their discard pile to their hand."
-3,uri,LOKI,Looking for Trouble,קריאת מחשבות,attack,,4,3,"IMMEDIATELY: If your opponent played a card, return it to their hand, look at their hand, and choose a card for them to play."
-2,uri,LOKI,God of Mischief,,versatile,,2,3,"IMMEDIATELY: If your opponent played a TRICK, cancel all effects on your opponents card."
-3,uri,LOKI,LAEVATEINN,,versatile,,2,3,"DURING COMBAT: Reveal a card in your opponent's hand. Add its BOOSt value to this card's value. If you reveal a TRICK, put it in your hand."
-2,uri,LOKI,RAGNAROK,,attack,,0,3,This card's effects cannot be canceled. DURING COMBAT: Add +3 to this card's value for each TRICK in your opponent's hand.
+3,uri,LOKI,Malicious Flyting,אין שני לו,versatile,,3,3,"לאחר הקרב: שלוף קלף 1. אם יריבך השתמש בכישוף, שלוף 2 קלפים."
+2,uri,ANY,TRICK: Sindri's Bet,חש בעוצמה,defence,,3,,"אורי: במהלך הקרב: יריבך יכול לבחור להשליך קלף מידו. אם לא, ערך הקלף שלו יורד ב3. לא אורי: לאחר הקרב: אורי שולף את הקלף העליון של ערימת הקלפים המושלכים שלו."
+3,uri,LOKI,Looking for Trouble,היפנוזה,attack,,4,3,"מיד: אם יריבך השתמש בקלף, החזר אותו לידו. הבט בידו של יריבך ובחר בקלף בו ישתמש."
+2,uri,LOKI,God of Mischief,אפקט הגלר,versatile,,2,3,"מיד: אם יריבך השתמש בכישוף, בטל את כל ההשפעות של אותו קלף."
+3,uri,LOKI,LAEVATEINN,טלפתיה,versatile,,2,3,"במהלך הקרב: בחר והראה קלף אקראי מיד היריב. הוסף את ערך השדרוג של אותו קלף לערך של קלף זה. בנוסף, אם הראת כישוף, שים אותו בידך."
+2,uri,LOKI,RAGNAROK,מרגל על-טבעי,attack,,0,3,לא ניתן לבטל את השפעות קלף זה. במהלך הקרב: הוסף +3 לערך של קלף זה עבור כל כישוף ביד של היריב.
+2,naomi,MELODY,כלבי הציד של זאוס האדיר,,versatile,,4,3,לאחר הקרב: הזז כל מלודיה עד 3 משבצות
+3,naomi,NAOMI,המבט שהופך לאבן,,attack,,2,4,"אלרח הקרב: אם ניצחת בקרב, הלוחם היריב סופג 8 נזק."
+3,naomi,ANY,התחמקות,,versatile,,3,1,לאחר הקרב: הזז את הלוחם שלך עד 3 משבצות.
+3,naomi,NAOMI,לחישה וזחילה,,defence,,4,3,לאחר הקרב: היריב שלך חייב להשליך קלף 1.
+3,naomi,NAOMI,מתקפה נוספת,הדרן,attack,,3,3,במהלך הקרב: אתה רשאי לשדרג את המתקפה הזו.
+3,naomi,ANY,ארגון מחדש,ארגון מחדש,versatile,,1,2,"לאחר הקרב: שלוף קלף 1. אלא אם כן ניצחת בקרב, במקרה זה שלוף 2 קלפים."
+2,naomi,ANY,טירוף מכונף,,scheme,,,2,"הזז כל אחד מהלוחמים שלך עד 3 משבצות. אתה רשאי להזיז אותם דרך משבצות המכילות לוחמים של היריב. לאחר מכן, החזר מלודיה מובסת אחת למשחק (אם קיימת כזו) לאחת המשבצות באיזור של נעמי."
+2,naomi,NAOMI,מבט חטוף,,scheme,,,4,לוחם אחד באיזור של נעמי סופג 2 נקודות נזק.
+3,naomi,ANY,הטעיה,הטעיה,versatile,,2,2,מיד: בטל את כל ההשפעות שבקלף של יריבך.
+3,naomi,ANY,צליפה,,versatile,,3,1,לאחר הקרב: שלוף קלף 1.
+3,naomi,MELODY,לפיתת הטופרים,,versatile,,3,2,לאחר הקרב: האויב שלך חייב להשליך קלף 1.
